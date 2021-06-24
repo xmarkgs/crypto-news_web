@@ -264,6 +264,7 @@ footer {
 .news-post-container {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 
     h3 {
         font-weight: normal;
@@ -472,6 +473,7 @@ footer {
         padding: 13px 7px;
         font-size: 18px;
         border-bottom: 1px solid #959595;
+        cursor: pointer;
 
         &:first-of-type {
             font-size: 24px;
@@ -513,6 +515,7 @@ footer {
         padding: 13px 7px;
         font-size: 16px;
         border-bottom: 1px solid #959595;
+        cursor: pointer;
 
         span {
             margin-top: 7px;
@@ -570,6 +573,10 @@ footer {
         color: #4D60A1;
         font-family: 'Circe Regular';
         padding-right: 40%;
+    }
+
+    h2, p {
+        cursor: pointer;
     }
 }
 

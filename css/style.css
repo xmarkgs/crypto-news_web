@@ -329,6 +329,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  cursor: pointer;
 }
 
 .news-post-container h3 {
@@ -587,6 +588,7 @@ footer {
   padding: 13px 7px;
   font-size: 18px;
   border-bottom: 1px solid #959595;
+  cursor: pointer;
 }
 
 .vocabulary-container .vocabulary-term:first-of-type {
@@ -639,6 +641,7 @@ footer {
   padding: 13px 7px;
   font-size: 16px;
   border-bottom: 1px solid #959595;
+  cursor: pointer;
 }
 
 .important-news-container .important-news-post span {
@@ -704,6 +707,10 @@ footer {
   color: #4D60A1;
   font-family: 'Circe Regular';
   padding-right: 40%;
+}
+
+.footer__column h2, .footer__column p {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1460px) {
