@@ -89,6 +89,9 @@ footer {
   background: black;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 .header__broadcast-block p {
@@ -96,6 +99,10 @@ footer {
   color: white;
   font-size: 13px;
   font-weight: 400;
+}
+
+.header__broadcast-block:hover {
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .header__info {
@@ -166,6 +173,7 @@ footer {
   font-weight: bold;
   -webkit-transition: .2s;
   transition: .2s;
+  cursor: pointer;
 }
 
 .header__top-row button:hover {

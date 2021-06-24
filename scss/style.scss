@@ -69,12 +69,18 @@ footer {
     padding: 36px 0 31px 0;
     background: black;
     flex-shrink: 0;
+    cursor: pointer;
+    transition: .2s;
 
     p {
         margin-top: 8px;
         color: white;
         font-size: 13px;
         font-weight: 400;
+    }
+
+    &:hover {
+        background: rgba(0, 0, 0, 0.8);
     }
 }
 
@@ -131,6 +137,7 @@ footer {
         border-radius: 5px;
         font-weight: bold;
         transition: .2s;
+        cursor: pointer;
 
         &:hover {
             background: #001B44;
