@@ -360,6 +360,7 @@ footer {
 .post-container span {
   color: #217AFF;
   font-family: 'Gotham Pro Bold';
+  cursor: pointer;
 }
 
 .post-container span.black {
@@ -473,6 +474,7 @@ footer {
   padding: 13px;
   -webkit-transition: .2s;
   transition: .2s;
+  cursor: pointer;
 }
 
 .send-application:hover {
