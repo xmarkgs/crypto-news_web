@@ -134,6 +134,7 @@ footer {
   font-size: 13px;
   font-weight: 600;
   color: #222222;
+  cursor: pointer;
 }
 
 .header__top-row h3.menu-underlined {
@@ -178,6 +179,10 @@ footer {
 
 .header__top-row button:hover {
   background: #001B44;
+}
+
+.header__top-row img {
+  cursor: pointer;
 }
 
 .header__bottom-row {
@@ -314,6 +319,7 @@ footer {
   background: transparent;
   -webkit-transition: .2s;
   transition: .2s;
+  cursor: pointer;
 }
 
 .news-switcher button:nth-child(2):hover {

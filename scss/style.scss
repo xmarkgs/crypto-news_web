@@ -111,6 +111,7 @@ footer {
         font-size: 13px;
         font-weight: 600;
         color: #222222;
+        cursor: pointer;
 
         &.menu-underlined {
             position: relative;
@@ -152,6 +153,10 @@ footer {
         &:hover {
             background: #001B44;
         }
+    }
+
+    img {
+        cursor: pointer;
     }
 }
 
@@ -263,6 +268,7 @@ footer {
     button:nth-child(2) {
         background: transparent;
         transition: .2s;
+        cursor: pointer;
 
         &:hover {
             background: #217AFF;
