@@ -589,21 +589,7 @@ footer {
   font-size: 18px;
   border-bottom: 1px solid #959595;
   cursor: pointer;
-}
-
-.vocabulary-container .vocabulary-term:first-of-type {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.vocabulary-container .vocabulary-term:not(:first-of-type) {
-  font-family: 'Circe Regular';
-}
-
-.vocabulary-container .vocabulary-term:last-of-type {
-  padding-bottom: 0;
-  border: 0;
-  font-family: 'Circe Extra Bold';
+  font-family: 'Gotham Pro';
 }
 
 .important-news-container {
@@ -747,6 +733,7 @@ footer {
   .logo-container {
     background: #217AFF;
     color: white;
+    font-size: 28px;
   }
   .footer__elements {
     width: 100%;
